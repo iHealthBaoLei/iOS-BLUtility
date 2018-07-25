@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECE0030C2107FDAA005D61F6 /* BLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0030B2107FDAA005D61F6 /* BLFileManager.m */; };
+		ECE00310210807BA005D61F6 /* NSDate+Dispaly.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0030F210807BA005D61F6 /* NSDate+Dispaly.m */; };
+		ECE00313210809F0005D61F6 /* NSObject+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE00312210809F0005D61F6 /* NSObject+Notification.m */; };
 		ECF23E061FD925DB00ED7D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF23E051FD925DB00ED7D74 /* AppDelegate.m */; };
 		ECF23E091FD925DB00ED7D74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF23E081FD925DB00ED7D74 /* ViewController.m */; };
 		ECF23E0C1FD925DB00ED7D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF23E0A1FD925DB00ED7D74 /* Main.storyboard */; };
 		ECF23E0E1FD925DB00ED7D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF23E0D1FD925DB00ED7D74 /* Assets.xcassets */; };
 		ECF23E111FD925DB00ED7D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF23E0F1FD925DB00ED7D74 /* LaunchScreen.storyboard */; };
 		ECF23E141FD925DB00ED7D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF23E131FD925DB00ED7D74 /* main.m */; };
+		ECF23E1F1FD92DEB00ED7D74 /* BLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF23E1E1FD92DEB00ED7D74 /* BLLog.m */; };
+		ECF23E241FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF23E231FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECE0030A2107FDAA005D61F6 /* BLFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLFileManager.h; sourceTree = "<group>"; };
+		ECE0030B2107FDAA005D61F6 /* BLFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLFileManager.m; sourceTree = "<group>"; };
+		ECE0030E210807BA005D61F6 /* NSDate+Dispaly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Dispaly.h"; sourceTree = "<group>"; };
+		ECE0030F210807BA005D61F6 /* NSDate+Dispaly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Dispaly.m"; sourceTree = "<group>"; };
+		ECE00311210809F0005D61F6 /* NSObject+Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Notification.h"; sourceTree = "<group>"; };
+		ECE00312210809F0005D61F6 /* NSObject+Notification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Notification.m"; sourceTree = "<group>"; };
 		ECF23E011FD925DB00ED7D74 /* BLUtilityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLUtilityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF23E041FD925DB00ED7D74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECF23E051FD925DB00ED7D74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,11 @@
 		ECF23E101FD925DB00ED7D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF23E121FD925DB00ED7D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECF23E131FD925DB00ED7D74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF23E1D1FD92DEB00ED7D74 /* BLLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLLog.h; sourceTree = "<group>"; };
+		ECF23E1E1FD92DEB00ED7D74 /* BLLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLLog.m; sourceTree = "<group>"; };
+		ECF23E201FD92E8B00ED7D74 /* BLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMacro.h; sourceTree = "<group>"; };
+		ECF23E221FD9302100ED7D74 /* UIDevice+BLDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BLDeviceInfo.h"; sourceTree = "<group>"; };
+		ECF23E231FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BLDeviceInfo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 		ECF23DF81FD925DB00ED7D74 = {
 			isa = PBXGroup;
 			children = (
+				ECF23E1A1FD9260300ED7D74 /* Src */,
 				ECF23E031FD925DB00ED7D74 /* BLUtilityProject */,
 				ECF23E021FD925DB00ED7D74 /* Products */,
 			);
@@ -71,6 +88,24 @@
 			path = BLUtilityProject;
 			sourceTree = "<group>";
 		};
+		ECF23E1A1FD9260300ED7D74 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				ECF23E201FD92E8B00ED7D74 /* BLMacro.h */,
+				ECF23E1D1FD92DEB00ED7D74 /* BLLog.h */,
+				ECF23E1E1FD92DEB00ED7D74 /* BLLog.m */,
+				ECF23E221FD9302100ED7D74 /* UIDevice+BLDeviceInfo.h */,
+				ECF23E231FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m */,
+				ECE0030A2107FDAA005D61F6 /* BLFileManager.h */,
+				ECE0030B2107FDAA005D61F6 /* BLFileManager.m */,
+				ECE0030E210807BA005D61F6 /* NSDate+Dispaly.h */,
+				ECE0030F210807BA005D61F6 /* NSDate+Dispaly.m */,
+				ECE00311210809F0005D61F6 /* NSObject+Notification.h */,
+				ECE00312210809F0005D61F6 /* NSObject+Notification.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,7 +132,7 @@
 		ECF23DF91FD925DB00ED7D74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = iHealthlabs;
 				TargetAttributes = {
 					ECF23E001FD925DB00ED7D74 = {
@@ -143,7 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF23E091FD925DB00ED7D74 /* ViewController.m in Sources */,
+				ECE0030C2107FDAA005D61F6 /* BLFileManager.m in Sources */,
+				ECF23E241FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m in Sources */,
+				ECE00310210807BA005D61F6 /* NSDate+Dispaly.m in Sources */,
+				ECE00313210809F0005D61F6 /* NSObject+Notification.m in Sources */,
 				ECF23E141FD925DB00ED7D74 /* main.m in Sources */,
+				ECF23E1F1FD92DEB00ED7D74 /* BLLog.m in Sources */,
 				ECF23E061FD925DB00ED7D74 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +224,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -191,6 +232,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -239,6 +281,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +289,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -281,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BP243G3Q2K;
 				INFOPLIST_FILE = BLUtilityProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.BLUtilityProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BP243G3Q2K;
 				INFOPLIST_FILE = BLUtilityProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.BLUtilityProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

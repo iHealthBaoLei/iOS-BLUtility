@@ -10,4 +10,8 @@
 
 @interface NSDate (Dispaly)
 
+- (NSString *)UTCStringWithDateFormat:(NSString *)dateFormat;
+- (NSString *)localStringWithDateFormat:(NSString *)dateFormat;
+- (BOOL)isSameDay:(NSDate*)date;
+- (BOOL)is24Hrs;
 @end
