@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC51D4D2211BD15700A8C51A /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EC51D4D1211BD15700A8C51A /* NSData+Encryption.m */; };
 		ECE0030C2107FDAA005D61F6 /* BLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0030B2107FDAA005D61F6 /* BLFileManager.m */; };
 		ECE00310210807BA005D61F6 /* NSDate+Dispaly.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0030F210807BA005D61F6 /* NSDate+Dispaly.m */; };
 		ECE00313210809F0005D61F6 /* NSObject+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE00312210809F0005D61F6 /* NSObject+Notification.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC51D4D0211BD15700A8C51A /* NSData+Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		EC51D4D1211BD15700A8C51A /* NSData+Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
 		ECE0030A2107FDAA005D61F6 /* BLFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLFileManager.h; sourceTree = "<group>"; };
 		ECE0030B2107FDAA005D61F6 /* BLFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLFileManager.m; sourceTree = "<group>"; };
 		ECE0030E210807BA005D61F6 /* NSDate+Dispaly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Dispaly.h"; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				ECE0030F210807BA005D61F6 /* NSDate+Dispaly.m */,
 				ECE00311210809F0005D61F6 /* NSObject+Notification.h */,
 				ECE00312210809F0005D61F6 /* NSObject+Notification.m */,
+				EC51D4D0211BD15700A8C51A /* NSData+Encryption.h */,
+				EC51D4D1211BD15700A8C51A /* NSData+Encryption.m */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF23E091FD925DB00ED7D74 /* ViewController.m in Sources */,
+				EC51D4D2211BD15700A8C51A /* NSData+Encryption.m in Sources */,
 				ECE0030C2107FDAA005D61F6 /* BLFileManager.m in Sources */,
 				ECF23E241FD9302100ED7D74 /* UIDevice+BLDeviceInfo.m in Sources */,
 				ECE00310210807BA005D61F6 /* NSDate+Dispaly.m in Sources */,

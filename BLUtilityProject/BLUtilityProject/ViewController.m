@@ -10,7 +10,15 @@
 #import "BLMacro.h"
 #import "BLLog.h"
 #import "BLFileManager.h"
+#import "NSData+Encryption.h"
 
+static inline NSData *DataWithUTF8String(NSString *string){
+    if (!string || string.length == 0){
+        return nil;
+    }
+    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+    return [data copy];
+}
 @interface ViewController ()
 
 @end
@@ -30,6 +38,14 @@
     NSLog(@"delete result: %d",flag);
     
     
+    NSData *data = DataWithUTF8String(@"123456");
+    NSLog(@"data:%@",data);
+    
+    NSData *encryData = [data AES256ParmEncryptWithKey:@"abcd"];
+    NSLog(@"encryData:%@",encryData);
+    
+    NSData *decryData = [encryData AES256ParmDecryptWithKey:@"abcd"];
+    NSLog(@"decryData:%@",decryData);
     
 }
 
